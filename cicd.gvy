@@ -8,7 +8,7 @@ pipeline {
 	         steps {
                 // step1 
                 echo 'compiling..'
-		            git url: 'https://github.com/Haripriya95/PetClinic'
+		            git url: 'https://github.com/Haripriya95/petclinic'
 		            sh script: '/opt/maven/bin/mvn compile'
            }
         }
